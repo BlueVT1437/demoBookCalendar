@@ -1,12 +1,18 @@
 export const schedulerData = [
   {
-    startDate: "2023-11-05T09:45",
-    endDate: "2023-11-05T11:00",
-    title: "Meeting"
+		Id: 1,
+    StartTime: new Date(2023, 10, 11, 8, 0),
+    EndTime: new Date(2023, 10, 11, 9, 30),
+    Subject: "Meetinggg",
+		Description: {
+			title: "testing",
+			name: "kiet test"
+		}
   },
   {
-    startDate: "2023-11-07T12:00",
-    endDate: "2023-11-07T13:30",
-    title: "Go to a gym"
+		Id: 1,
+    StartTime: new Date(2023, 10, 7, 10, 0),
+    EndTime: new Date(2023, 10, 7, 12, 30),
+    Subject: "Meetinggg",
   },
 ];
